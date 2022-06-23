@@ -1,2 +1,5 @@
 sudo docker-compose -f docker-compose.yml -f docker-compose.dev.yml down -v
 for run docker compose
+
+mongo -u "channo" -p "1010" = Login to mongo
+docker exec -it docker_image_mongo_1 mongo -u "channo" -p "1010" = Login to mongo
